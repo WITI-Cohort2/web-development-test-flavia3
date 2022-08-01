@@ -1,0 +1,17 @@
+body {
+    background-color: smoke whitesmoke;
+}
+input {
+    padding: 0px;
+    margin: 2px;
+    box-sizing: border-box
+}
+textarea {
+    resize: vertical
+}
+a {
+    align-items: center;
+}
+button {
+    color: blue;
+}

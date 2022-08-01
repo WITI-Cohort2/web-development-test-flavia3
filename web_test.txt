@@ -1,0 +1,12 @@
+#Qn 1 (a)
+Elements are a components that work hand in hand with tag names
+#Qn 1 (b)
+Attributes link to show a specific location
+#Qn 1 (c)
+Selectors are specific identifiers of an action
+#Qn 1 (d)
+Semantic elements are elements that ease code to bring out a good page
+#Qn 1 (e)
+Web accessibility refers to how one is able to access  the web 
+#Qn 1(f)
+Web server is a secure 

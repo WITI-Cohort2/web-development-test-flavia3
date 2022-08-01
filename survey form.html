@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulago survey form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="surveyform.php" method="post">
+       <label>First name</label><br>
+       <input type="text" name="fname" placeholder="firstname"><br>
+       <label>last name</label><br>
+       <input type="text" name="fname" placeholder="lastname"><br>
+       <label>Phone number</label><br>
+       <input type="number" name="Phone" value="Phone number"><br>
+       <label>Place of residence</label><br>
+       <input type="text" name="Place" placeholder="Enter place of residence"><br>
+       <label>Gender</label><br>
+       <label>Male</label>
+       <input type="radio" name="gender" value="male">
+       <label>Female</label>
+       <input type="radio" name="gender" value="female"><br>
+       <label>Age range of patients</label><br>
+       <label>Between 0-9years</label>
+       <input type="radio" name="age" value="Between 0-9years"><br>
+       <label>Between 10-19years</label>
+       <input type="radio" name="age" value="Between 10-19years"><br>
+       <label>Between 20-29years</label>
+       <input type="radio" name="age" value="Between 20-29years"><br>
+       <label>Between 30-39years</label>
+       <input type="radio" name="age" value="Between 30-39years"><br>
+       <label>Between 40-49years</label>
+       <input type="radio" name="age" value="Between 40-49years"><br>
+       <label>Above 50years</label>
+       <input type="radio" name="age" value="Above 50years"><br>
+       <label>Leave a comment</label><br>
+       <textarea name="message" placeholder="write your comment here: "></textarea><br>
+       <a href="T&Cs">Terms and Conditions</a><br>
+       <button type="submit" name="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
